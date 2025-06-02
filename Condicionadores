@@ -1,0 +1,97 @@
+
+## 🧩 O que são condicionadores?
+
+Condicionadores são instruções condicionais embutidas no prompt, geralmente expressas com termos como:
+
+* "Se... então..."
+* "Caso contenha..."
+* "Dependendo de..."
+* "Quando for detectado..."
+
+Eles ativam comportamentos diferentes conforme o conteúdo analisado.
+
+---
+
+## 🛠️ Como usar condicionadores em prompts com exemplos
+
+---
+
+### ✅ Exemplo 1: Condicional Simples
+
+Prompt:
+
+```plaintext
+Você receberá um texto dentro da tag <TEXTO></TEXTO>.
+
+Se o texto contiver uma sequência de instruções, reescreva essas instruções no formato:
+
+Passo 1 - ...
+Passo 2 - ...
+...
+
+Se o texto não contiver uma sequência de instruções, responda apenas: "Nenhuma etapa fornecida."
+
+<TEXTO>
+... (conteúdo aqui)
+</TEXTO>
+```
+
+🧠 O modelo decide qual caminho seguir com base na presença ou ausência de instruções.
+
+---
+
+### ✅ Exemplo 2: Condicional com múltiplos caminhos
+
+Prompt:
+
+```plaintext
+Analise o texto abaixo:
+
+<TEXTO> ... </TEXTO>
+
+Se o texto for uma descrição, resuma em uma frase.
+Se for uma receita, reestruture como passos numerados.
+Se for uma opinião, extraia a ideia principal.
+```
+
+📌 Resultado: O modelo detecta o tipo de texto e aplica o tratamento apropriado.
+
+---
+
+### ✅ Exemplo 3: Condicionador em cadeia (encadeamento de verificações)
+
+Prompt:
+
+```plaintext
+<TEXTO>
+...conteúdo...
+</TEXTO>
+
+1. Verifique se o texto contém ações executáveis.
+2. Se sim, reescreva como uma lista de passos.
+3. Se não, apenas escreva: "Texto sem instruções."
+```
+
+🔁 O modelo segue uma lógica condicional em sequência, como um script de decisão.
+
+---
+
+## 🔍 Estrutura Geral de um Condicionador de Prompt
+
+```
+Se [condição for verdadeira],
+então [ação 1].
+Caso contrário,
+[ação 2].
+```
+
+---
+
+## 🧠 Boas práticas
+
+* Use condições explícitas, fáceis de avaliar com base no conteúdo.
+* Evite "se talvez", seja claro: "Se contiver verbo no imperativo..." ou "Se houver mais de uma ação sequencial...".
+* Combine com **delimitadores** para isolar a área de análise.
+
+---
+
