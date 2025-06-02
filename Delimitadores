@@ -9,3 +9,19 @@ Por que usar <texto>...</texto> no ChatGPT?
 São fáceis de identificar visualmente.
 Delimitam bem o conteúdo para evitar confusão.
 Funcionam de forma estável mesmo em prompts complexos.
+
+
+🎯 Objetivo:
+Delimitadores ajudam o modelo a entender exatamente onde começa e termina um trecho importante (como texto, código, instrução ou contexto). Isso evita ambiguidade e melhora a qualidade da resposta.
+
+Escolha o delimitador ideal para o seu caso
+Use conforme a complexidade, tipo de conteúdo e ambiente:
+
+Cenário	Melhor delimitador
+Texto geral	<texto> ... </texto>
+Código ou conteúdo técnico	```tipo ... ```
+Mensagens curtas	[TEXTO] ... [/TEXTO]
+Fluxos visuais	--- BLOCO ---
+Interação com código Python	""" ... """
+
+
