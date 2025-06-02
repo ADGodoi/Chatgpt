@@ -1,0 +1,11 @@
+Resuma em uma única frase o conteúdo do texto entre as tags <texto></texto>, destacando sua principal orientação sobre a formulação de prompts eficazes.
+
+<texto>
+Prompts vagos resultam em respostas imprevisíveis; portanto, quanto mais contexto e detalhes forem fornecidos ao modelo, maior será a chance de obter uma resposta útil e precisa.
+</texto>
+
+Por que usar <texto>...</texto> no ChatGPT?
+
+São fáceis de identificar visualmente.
+Delimitam bem o conteúdo para evitar confusão.
+Funcionam de forma estável mesmo em prompts complexos.
