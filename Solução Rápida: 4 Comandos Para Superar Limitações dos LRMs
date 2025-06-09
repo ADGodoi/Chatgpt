@@ -1,0 +1,19 @@
+🧠 Solução Rápida: 4 Comandos Para Superar Limitações dos LRMs
+1️⃣ COMANDO SEGMENTAÇÃO
+Divida problemas complexos em micro-etapas de no máximo 3-5 passos cada. Execute uma por vez e valide antes de prosseguir.
+2️⃣ COMANDO VERIFICAÇÃO
+Após cada etapa, pergunte: "Este passo está correto?" Corrija imediatamente qualquer inconsistência antes de continuar.
+3️⃣ COMANDO ALGORITMO EXPLÍCITO
+Use o formato: "1. Analise X → 2. Execute Y → 3. Verifique Z → 4. Se falso, volte ao passo 2"
+4️⃣ COMANDO LIMITE DE COMPLEXIDADE
+Se o problema exigir mais de 10 passos consecutivos, pare e redesenhe em subproblemas menores.
+🎯 Aplicação Prática Imediata:
+Para usar esses comandos, simplesmente adicione isto no início de qualquer prompt:
+ANTES DE RESPONDER: Execute os 4 comandos de segmentação cognitiva:
+1. Divida em micro-etapas (máx 5 passos)
+2. Valide cada etapa antes de continuar  
+3. Use formato algorítmico explícito
+4. Se >10 passos, redesenhe o problema
+
+Agora resolva: [sua pergunta aqui]
+Resultado: Evita colapso cognitivo, overthinking e garante execução correta mesmo em problemas complexos.
